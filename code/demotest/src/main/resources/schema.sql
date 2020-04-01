@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS student;
+CREATE TABLE student (
+  `id` int(32) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) DEFAULT NULL,
+  `memo` varchar(50) DEFAULT NULL,
+  `state` int(2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS teacher;
+CREATE TABLE teacher (
+  `id` int(32) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) DEFAULT NULL,
+  `memo` varchar(50) DEFAULT NULL,
+  `state` int(2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
